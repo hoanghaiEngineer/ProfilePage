@@ -945,6 +945,9 @@
 	border-radius: 20px;
 }
 /* color */
+.color-white{
+	color: white;
+}
 .color-red{
 	color: red;
 }
@@ -992,8 +995,13 @@
 	background-color: black;
 }
 .background-gray{
-	background-color: gray;
+	background-color: #F3F0F0;
 }
+/* mau do sam */
+.background-magenta{
+	background-color: #5F0707;
+}
+
 /* outline */
 .outline-color-red{
 	outline-color: red;
