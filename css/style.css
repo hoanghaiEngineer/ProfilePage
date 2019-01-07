@@ -1104,6 +1104,10 @@
 	border: 3px solid #73AD21;
 	padding: 10px;
 }
+.profile-image {
+    width: 250px;
+	height: auto;
+ }
 /* profile page css */
 .tab-skill{
 	background-color: #AED6F1;
@@ -1204,4 +1208,11 @@
 }
 .tooltip-custom:hover .tooltiptext {
   visibility: visible;
+}
+/* media rule */
+@media only screen and (max-width: 991px) {
+  .profile-image {
+    width: 200px;
+	height: auto;
+  }
 }
