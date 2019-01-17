@@ -1173,41 +1173,48 @@
 .tag:hover::after {
    border-left-color: crimson; 
 }
-/* tooltip */
-.tooltip-custom {
-  position: relative;
-  display: inline-block;
+@media only screen and (max-width: 1280px) {
+	.tooltiptext{
+		display: none;
+	}
 }
+@media only screen and (min-width: 1280px) {
+  /* tooltip */
+	.tooltip-custom {
+	  position: relative;
+	  display: inline-block;
+	}
 
-.tooltip-custom .tooltiptext {
-  visibility: hidden;
-  width: 550px;
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-  text-align: left;
-  border-radius: 6px;
-  padding: 5px 5px;
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 110%;
-}
-.tooltip-custom .tooltiptextleft {
-   visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  right: 110%;
-}
-.tooltip-custom:hover .tooltiptext {
-  visibility: visible;
+	.tooltip-custom .tooltiptext {
+	  visibility: hidden;
+	  width: 300px;
+	  background-color: white;
+	  color: black;
+	  border: 1px solid black;
+	  text-align: left;
+	  border-radius: 6px;
+	  padding: 5px 5px;
+	  position: absolute;
+	  z-index: 1;
+	  top: -5px;
+	  left: 110%;
+	}
+	.tooltip-custom .tooltiptextleft {
+	   visibility: hidden;
+	  width: 120px;
+	  background-color: black;
+	  color: #fff;
+	  text-align: center;
+	  border-radius: 6px;
+	  padding: 5px 0;
+	  position: absolute;
+	  z-index: 1;
+	  top: -5px;
+	  right: 110%;
+	}
+	.tooltip-custom:hover .tooltiptext {
+	  visibility: visible;
+	}
 }
 .fa-skype{
 	color: blue;
