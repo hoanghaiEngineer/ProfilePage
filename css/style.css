@@ -1177,6 +1177,12 @@
 	.tooltiptext{
 		display: none;
 	}
+	.tooltiptextleft{
+		display: none;
+	}
+	.profile-image{
+		margin: auto;
+	}
 }
 @media only screen and (min-width: 1280px) {
   /* tooltip */
